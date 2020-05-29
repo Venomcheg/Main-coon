@@ -1,0 +1,58 @@
+.top-main {
+	position: relative;
+background-color: #181617;
+	&__container {
+		padding: 168px 204px;
+	}
+
+	&__content {
+	}
+
+	&__social {
+	}
+
+	&__social-btn {
+	}
+
+	&__social-link {
+	}
+}
+.corona {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.header-site {
+
+	&__city {
+	}
+
+	&__title {
+		margin-top: 30px;
+		font-size: 52px;
+		font-family: Yesevaone, Arial, serif;
+	}
+
+	&__details {
+		width: 280px;
+		margin-top: 30px;
+	}
+
+	&__btn {
+	}
+}
+.text-br {
+	color: #A07B50;
+}
+.btn {
+	margin-top: 40px;
+	width: 200px;
+	height: 52px;
+	font-size: 14px;
+	text-transform: none;
+	font-weight: 500;
+	color: #fff;
+	border: 1px solid #A07B50;	
+	background-color: transparent;
+}
