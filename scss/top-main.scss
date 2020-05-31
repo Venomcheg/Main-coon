@@ -1,7 +1,7 @@
 .top-main {
 	position: relative;
 	background-color: #181617;
-	background-image: url("/img/bg-top.png");
+	background-image: url("../img/bg-top.png");
 	background-position:100% 100%;
 	background-repeat: no-repeat;
 
@@ -33,11 +33,8 @@
 	}
 
 	&__social-btn {
-
 	}
-
 	&__social-link{
-
 			svg {
 				&:hover {
 					path {
@@ -48,10 +45,6 @@
 		}
 	}
 }
-
-
-
-
 .corona {
 	position: absolute;
 	top: 60px;
@@ -71,7 +64,6 @@
 	}
 
 	&__details {
-		line-height: 22px;
 		max-width: 330px;
 		margin-top: 30px;
 	}
@@ -101,7 +93,7 @@
 }
 @media(max-width: $md3) {
 	.top-main {
-		background-image: url("/img/bg-top-tab.png");
+		background-image: url("../img/bg-top-tab.png");
 		background-size: 700px auto;
 		&__container {
 			padding: 147px 0 117px 43px;
@@ -154,7 +146,7 @@
 			top: 35px;
 		}
 		.top-main {
-			background-image: url("/img/bg-top-mob.png");
+			background-image: url("../img/bg-top-mob.png");
 			background-size: 270px ;
 			&__container {
 				padding: 100px 15px 270px 15px;
@@ -192,9 +184,6 @@
 				@include adaptiv-font(52, 36);
 			}
 	
-			&__details {
-				@include adaptiv-font(16, 14);
-			}
 	
 			&__btn {
 				@include adaptiv-font(14, 12); 

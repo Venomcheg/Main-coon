@@ -278,10 +278,26 @@ body.ie {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-font-size: 18px;
-line-height: 18px;
-font-family: Roboto, Arial, sans-serif;
-font-weight: normal;
-text-transform: uppercase;
-border-radius: 2px;
+	font-size: 18px;
+	line-height: 18px;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+.text {
+	line-height: 22px;
+	color: #a07b50;
+	@media(max-width: $md4) {
+		@include adaptiv-font(16, 14);
+	}
+}
+.second-title {
+	font-family: Yesevaone;
+	font-size: 36px;
+	line-height: 42px;
+	color:#fff;
+	@media (max-width: $md4) {
+		@include adaptiv-font(36, 28);
+	}
 }
