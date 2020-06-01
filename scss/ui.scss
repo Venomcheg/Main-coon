@@ -291,6 +291,37 @@ body.ie {
 	@media(max-width: $md4) {
 		@include adaptiv-font(16, 14);
 	}
+	&_w {
+		color: #fff;
+	}
+}
+.text-r {
+	position: relative;
+	text-align: right;
+	&::after {
+		content: "";
+		position: absolute;
+		right: -28px;
+		top: 10px;
+		width: 15px;
+		height: 15px;
+		background-color: #A07B50;
+		border-radius: 50%;
+	}
+}
+.text-l {
+	position: relative;
+	text-align: left;
+	&::before {
+		content: "";
+		position: absolute;
+		left: -28px;
+		top: 10px;
+		width: 15px;
+		height: 15px;
+		background-color: #A07B50;
+		border-radius: 50%;
+	}
 }
 .second-title {
 	font-family: Yesevaone;
