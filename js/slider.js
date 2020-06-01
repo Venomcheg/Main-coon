@@ -27,7 +27,7 @@ if (sliders) {
 }
 function sliders_bild_callback(params) { }
 
-let main_slider = new Swiper('.swiper-wrapper', {
+let main_slider = new Swiper('.slider-pets__body', {
 	/*
 	effect: 'fade',
 	autoplay: {
@@ -36,15 +36,16 @@ let main_slider = new Swiper('.swiper-wrapper', {
 	},
 	*/
 	//observer: true,
-	init: false,
+	//init: false,
 	observeParents: true,
 	slidesPerView: 1,
-	spaceBetween: 0,
+	spaceBetween: 100,
 	autoHeight: true,
 	speed: 800,
 	//touchRatio: 0,
 	simulateTouch: true,
 	loop: true,
+	centeredSlides: true,
 	//preloadImages: false,
 	//lazy: true,
 	// Dotts
@@ -53,15 +54,15 @@ let main_slider = new Swiper('.swiper-wrapper', {
 	// 	type: "bullets",
 	// },
 	// Arrows
-	// breakpoints: {
-	// 	768: {
-	// 		slidesPerView: 1,
-	// 		spaceBetween: 0
-	// 	}
-	// },
+	breakpoints: {
+		770: {
+			slidesPerView: 3,
+			spaceBetween: 50
+		}
+	},
 	navigation: {
-		nextEl: '.slider-pets__controls-befored',
-		prevEl: '.slider-pets__controls-next',
+		nextEl: '.slider-pets__control-before',
+		prevEl: '.slider-pets__control-next',
 
 	},
 
