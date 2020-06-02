@@ -18,3 +18,4 @@ testWebP(function (support) {
 @@include("body_lock.js", {});
 @@include("swiper.js", {});
 @@include("slider.js", {});
+@@include("popup.js", {})
