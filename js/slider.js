@@ -68,3 +68,44 @@ let main_slider = new Swiper('.slider-pets__body', {
 
 }
 );
+let our_team = new Swiper('.slider-our-team__body', {
+	/*
+	effect: 'fade',
+	autoplay: {
+	delay: 3000,
+	disableOnInteraction: false,
+	},
+	*/
+	//observer: true,
+	//init: false,
+	observeParents: true,
+	slidesPerView: 1,
+	spaceBetween: 100,
+	// autoHeight: true,
+	speed: 800,
+	//touchRatio: 0,
+	simulateTouch: true,
+	loop: true,
+	// centeredSlides: true,
+	//preloadImages: false,
+	//lazy: true,
+	// Dotts
+	// pagination: {
+	// 	el: '.slider-top__pagging',
+	// 	type: "bullets",
+	// },
+	// Arrows
+	breakpoints: {
+		768: {
+			slidesPerView: 1,
+			spaceBetween: 100
+		}
+	},
+	navigation: {
+		nextEl: '.slider-our-team__control-prev',
+		prevEl: '.slider-our-team__control-next',
+
+	},
+
+}
+);

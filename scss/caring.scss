@@ -122,6 +122,7 @@ border: 1px solid #A07B50;
 		}
 
 		&__title {
+			@include adaptiv-font(22, 18);
 			margin-top: 25px;
 		}
 
