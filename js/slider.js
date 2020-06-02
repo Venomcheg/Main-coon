@@ -109,3 +109,44 @@ let our_team = new Swiper('.slider-our-team__body', {
 
 }
 );
+let reviews = new Swiper('.slider-reviews__body', {
+	/*
+	effect: 'fade',
+	autoplay: {
+	delay: 3000,
+	disableOnInteraction: false,
+	},
+	*/
+	//observer: true,
+	//init: false,
+	observeParents: true,
+	slidesPerView: 1,
+	spaceBetween: 300,
+	// autoHeight: true,
+	speed: 800,
+	//touchRatio: 0,
+	simulateTouch: true,
+	loop: true,
+	// centeredSlides: true,
+	//preloadImages: false,
+	//lazy: true,
+	// Dotts
+	// pagination: {
+	// 	el: '.slider-top__pagging',
+	// 	type: "bullets",
+	// },
+	// Arrows
+	breakpoints: {
+		1360: {
+			slidesPerView: 1,
+			spaceBetween: 100
+		}
+	},
+	navigation: {
+		nextEl: '.slider-reviews__control-prev',
+		prevEl: '.slider-reviews__control-next',
+
+	},
+
+}
+);

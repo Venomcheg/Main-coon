@@ -1,0 +1,262 @@
+.reviews {
+	text-align: center     ;
+background-color: #1F1C1D;
+	&__container {
+		padding: 0 0 112px 0;
+	}
+
+	&__title {
+	}
+
+	&__slider {
+	}
+}
+.slider-reviews {
+
+	&__body {
+		margin-top: 60px;
+		overflow: hidden;
+	}
+
+	&__item {
+		text-align: left;
+		
+	}
+
+	&__image {
+		left: -400px;
+		top: 50px;
+		position: absolute;
+		img {
+			max-width: 481px;
+		}
+	}
+	&__container {
+		position: relative;
+		background-color: #151313;
+		margin-left: auto;
+		padding: 109px 20px 107px 145px;
+		width: 53%;
+		margin-right: 50px;
+	}
+	&__control {
+	}
+
+	&__control-prev {
+	}
+
+	&__control-next {
+	}
+
+	&__quote {
+	}
+
+	&__author {
+		font-size: 24px;
+		font-weight: 500;
+		font-style: normal;
+	}
+
+	&__text {
+		max-width: 410px;
+		font-size: 14px;
+		line-height: 164%;
+		margin-top: 20px;
+	}
+
+	&__social-time {
+		display: flex;
+		align-items: center;
+		margin-top: 42px;
+		font-size: 12px;
+		line-height: 154%;
+		color: #A07B50;
+		time {
+			margin-right: 36px;
+		}
+	}
+
+	&__social-list {
+		display: flex;
+
+	}
+
+	&__social-item {
+		margin-right: 18px;
+	}
+
+	&__social-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 28px;
+		height: 28px;
+		border: 1px solid rgba($color: #A07B50, $alpha: 0.3);
+		path {
+			fill: #A07B50;
+		}
+		&:hover {
+			transition: all 0.5s ease 0s;
+			border: 1px solid rgba($color: #fff, $alpha: 1);
+			path {
+				fill: #fff;
+			}
+		}
+
+	}
+}
+@media (max-width: $md3) {
+	.reviews {
+
+		&__container {
+		}
+
+		&__title {
+		}
+
+		&__slider {
+		}
+}
+.slider-reviews {
+
+		&__body {
+		}
+
+		&__item {
+			padding-top: 150px;
+			text-align: center;
+		}
+
+		&__container {
+			margin: auto;
+			width: 75%;
+			padding: 148px 70px 30px 70px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			
+		}
+
+		&__image {
+			top: 0;
+			left: auto;
+			right: 50%;
+			transform: translate(50%, -50%);
+			img {
+				width: 302px;
+			}
+		}
+
+		&__control {
+			position: absolute;
+			top: 70%;
+			width: 60px;
+			height: 16px;
+			background-image: url("../img/long-throw-l.svg");
+			cursor: pointer;
+		}
+
+		&__control-prev {
+			left: -100px;
+		}
+
+		&__control-next {
+			transform: rotate(180deg);
+			right: -100px;
+		}
+
+		&__quote {
+		}
+
+		&__author {
+		}
+
+		&__text {
+		}
+
+		&__social-time {
+		}
+
+		&__social-list {
+		}
+
+		&__social-item {
+		}
+
+		&__social-link {
+		}
+}
+
+}
+@media (max-width: $md4) {
+	.reviews {
+
+		&__container {
+		}
+
+		&__title {
+		}
+
+		&__slider {
+		}
+}
+
+.slider-reviews {
+
+		&__body {
+		}
+
+		&__item {
+		}
+
+		&__container {
+			padding: 100px 30px 40px 30px;
+			width: 90%;
+		}
+
+		&__image {
+			img {
+				width: 242px;
+			}
+		}
+
+		&__control {
+			top: 50%;
+			background-image: url("../img/throw-little.svg");
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			width: 10px;
+			height: 20px;
+		}
+
+		&__control-prev {
+			left: -30px;
+		}
+
+		&__control-next {
+			right: -30px;
+		}
+
+		&__quote {
+		}
+
+		&__author {
+		}
+
+		&__text {
+		}
+
+		&__social-time {
+		}
+
+		&__social-list {
+		}
+
+		&__social-item {
+		}
+
+		&__social-link {
+		}
+}
+
+}
