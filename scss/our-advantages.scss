@@ -109,6 +109,7 @@ background-color: #151313;
 		}
 
 		&__text {
+			@include adaptiv-font(16, 14);
 		}
 }
 
